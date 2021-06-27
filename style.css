@@ -1,0 +1,287 @@
+*{
+    font-family:'Roboto';
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    border:none;
+    /* text-transform: capitalize; */
+}
+html{
+    font-size:62.5%;
+    overflow-x: hidden; 
+    /* overflow along x will be hidden */
+}
+
+
+/* customising scroll-bar  */
+html::-webkit-scrollbar{
+    width:1.2rem;
+}
+html::-webkit-scrollbar-track{
+    background:#fff;
+}
+html::-webkit-scrollbar-thumb{
+    background:rgb(123, 202, 156)
+}
+
+body{
+    background:#fff;
+    
+    
+}
+section{
+    min-height: 100vh;
+    padding:0 7%;
+    padding-top: 9rem;
+}
+
+header{
+    width:100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    /* top:0; left: 0; */
+    z-index: 10;
+    padding:2.5rem ;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    
+}
+.logo{
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(79, 175, 122);
+    text-decoration: none;
+}
+/* a{
+    text-decoration:none;
+} */
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li a{
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    color:rgb(197, 184, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    color:rgb(228, 159, 159);
+    border-bottom: 0.1rem solid rgb(228, 159, 159);
+    /* padding: 0.7rem 0; */
+}
+.home-banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:rgb(236, 235, 235);
+
+}
+
+.home-banner image{
+    flex: 1 1 40rem;
+}
+
+.home-banner .content{
+    flex:1 1 40rem; 
+ }
+ .home-banner .content span{
+     color:rgb(114, 107, 107);
+     font-size:2.5rem;
+     font-family:Verdana;
+ }
+ .home-banner .content h2{
+     color:rgb(79, 175, 122);
+     font-size: 5rem;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ .tracker{
+     background-color:rgb(223, 221, 221);
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     height:70vh;
+ }
+
+ .container {
+    width: 70%;    
+    border-radius: 24px;
+    background: #F6F5F0;
+    padding: 2%;
+    box-shadow: 0px 10px 6px -8px rgba(0,0,0,0.75);
+  }
+  .board {
+      column-count: 3;
+      column-gap: 1rem;
+  }
+  .container h2 {
+      margin: 0 0 30px;
+      text-align: center;
+      font-size:3rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  .container #country span{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:darkgrey
+  }
+ 
+  .card {
+      width: 84%;
+      background: #ccc;
+      padding: 8%;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      color: #fff;
+  }
+  .card.a {
+      background: #8cc2f1;
+  }
+  .card.cr {
+      background: #f19292;
+  }
+  .card.r {
+      background: #8ecc90;
+  }
+  .card.ca {
+      background: #bb7575;
+  }
+  .card.d {
+      background: #be8a9c;
+  }
+  .card.t {
+      background: #c4a771;
+  }
+  .card h5 {
+      margin: 0;
+      font-size: 1rem;
+      font-size: 2rem;
+
+  }
+  .card span {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 4px;
+  }
+  .card i {
+      font-size: 3rem;
+  }
+  
+.symptoms{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    background-color:rgb(238, 225, 225);
+    height:80vh;
+}
+.symptoms image{
+    flex: 1 1 40rem;
+}
+
+.symptoms .content{
+    flex:1 1 40rem; 
+ }
+.symptoms .image .img{
+    width:100%;
+}
+.symptoms .image .img{
+    padding-right: 3.5rem;
+}
+.symptoms .content span{
+    font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1rem 0;
+    font-weight: 600;
+}
+
+.symptoms .content ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 5rem;
+    
+}
+
+.symptoms .content ul .two{
+    padding-left: 7rem;
+}
+
+.symptoms .content ul li{
+    margin-right: 2.5rem;
+    font-size: 1.8rem;
+    color:rgb(129, 118, 118);
+    padding-top: 1rem;
+    font-family: Verdana;
+
+
+}
+
+.prevent{
+  
+background-color:rgb(73, 72, 72);
+    height:70vh;
+}
+
+.prevent .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 3rem;
+    
+    
+
+    
+}
+
+.prevent .row .image{
+    flex:1 1 40rem;
+    
+    text-align: center;
+}
+.prevent .content .heading span{
+  color: rgb(224, 99, 99);
+}
+
+.prevent .row .content{
+    padding:8rem 4rem;
+    flex:1 1 40rem;
+    background-color: rgb(31, 30, 30);
+    box-shadow: 0.7rem 0.7rem 0.5rem rgb(255, 255, 255);
+
+}
+
+.prevent .row .content .heading{
+    color:rgb(105, 116, 110);
+    
+    font-size: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+.prevent .row .content ul li{
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    color:rgb(70, 66, 66);
+    padding:.5rem 0;
+    font-family: Verdana;
+    list-style-type:lower-roman
+
+}
+
+
+
+
