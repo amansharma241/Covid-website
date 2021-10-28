@@ -11,7 +11,12 @@ important statistics like number of deaths,active cases,tests done etc.
 ## Corona Tracker
 ![se](https://user-images.githubusercontent.com/84559875/139189949-230f2a7e-c604-4e39-8222-9a56359f38db.png)
 
+## Symptoms and precautions
 ![th](https://user-images.githubusercontent.com/84559875/139190203-ec22a470-b372-4c87-a3e5-b41a6643bb9a.png)
+
+![fo](https://user-images.githubusercontent.com/84559875/139190910-65ddc1df-cbfa-431f-a8ea-4484459622d0.png)
+
+
 
 
 
